@@ -1,0 +1,21 @@
+.mat-card{
+    background-color: lightblue;
+    min-width: 300x;max-width: 400px;margin-bottom: 30px;margin-left: 30px;
+}
+.mat-card-title{
+    position:relative;
+    left:100px;
+}
+
+.mat-card-title button{
+    font-size:22px;
+}
+
+
+.mat-card-subtitle{
+    position:relative;
+    left:116px;
+    color: teal;
+    font-size:13px;
+
+}

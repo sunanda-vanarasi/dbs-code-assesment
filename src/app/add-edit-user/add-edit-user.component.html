@@ -1,0 +1,31 @@
+<div class="container cont-style">
+    <p class="h5 text-center user-style">{{userType}} User</p>
+    <div class="col-sm-6 offset-sm-3"> 
+        <div>
+        <div class="form-group label-class">
+            <label for="name" class="p-bottom"> Name</label>
+                <input type="text" [(ngModel)]="name" class="form-control" placeholder="Enter your name" />
+            </div>
+            <div class="form-group label-class">
+                <label for="email" class="p-bottom"> Email</label>
+                    <input type="email" [(ngModel)]="email" class="form-control col-sm-5"  placeholder="Enter your email"/>
+                </div>
+                 <div class="form-group label-class">
+                <label for="phone" class="p-bottom">  Phone No:</label>
+                    <input type="text" [(ngModel)]="phone" class="form-control col-sm-5"  placeholder="Enter your phone no."/>
+                </div>
+                <div class="form-group label-class">
+                    <label for="website" class="p-bottom"> Website</label><br/><i class="option">(optional)</i>
+                        <input type="text" [(ngModel)]="website" class="form-control col-sm-5"  placeholder="Enter website"/>
+                    </div>
+                    <br/>
+                    <br/>
+            <div class="form-group">
+                <button  class="btn btn-primary"  (click)="onSubmit()">Submit</button>
+                <button  class="btn btn-default" (click)="onCancel()">Cancel</button>
+            </div>
+             </div> </div>  </div>
+    
+    
+
+

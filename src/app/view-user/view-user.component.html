@@ -1,0 +1,11 @@
+<div class="main-container"> 
+<div class="main-heading"><b ><h2> List of User Details</h2></b> </div>
+<div class="add-user">
+    <a [routerLink]="" (click)="addUser()">Add User</a>
+</div>
+<div  class="cards-view" >
+<div *ngFor="let user of users">
+   <user-detail [user]=user></user-detail>
+</div>
+</div>
+</div>

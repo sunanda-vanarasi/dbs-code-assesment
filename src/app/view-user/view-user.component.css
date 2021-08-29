@@ -1,0 +1,30 @@
+.main-container{
+    background-image: url('../../assets/bg1.png')  
+}
+
+.main-container .main-heading{
+    padding:10px; 
+    text-align:center;
+    padding-top: 50px;
+    color: #2e8873;
+    margin-bottom:10px;
+}
+
+.main-heading h2{
+    font-size:30px;
+}
+
+.add-user{
+    text-align: center;margin-bottom: 30px;font-size:17px;
+}
+
+.cards-view
+{
+    display:flex;flex-direction:row;flex-wrap: wrap;
+}
+
+
+.cards-view div
+{
+    flex-basis: 33.333333%;
+}
